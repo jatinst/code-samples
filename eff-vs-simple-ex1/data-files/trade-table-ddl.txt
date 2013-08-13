@@ -1,0 +1,8 @@
+CREATE TABLE trade (
+	trade_id INT NOT NULL
+	,quantity NUMERIC(8, 2)
+	,price NUMERIC(8, 2)
+	,account VARCHAR(25)
+	,side VARCHAR(25)
+	,PRIMARY KEY (trade_id)
+	);

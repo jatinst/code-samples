@@ -1,0 +1,10 @@
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (111,100.00,10.00,'MSFT','BUY');
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (112,20.00,10.00,'MSFT','SELL');
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (113,30.00,100.00,'AAPL','SELL');
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (114,400.00,10.00,'IBM','BUY');
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (115,50.00,10.00,'MSFT','BUY');
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (116,6000.00,30.00,'GOOG','SELL');
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (117,70.00,50.00,'MSFT','BUY');
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (118,80.00,110.00,'AAPL','SELL');
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (119,90.00,100.00,'AAPL','BUY');
+INSERT INTO trade (trade_id,quantity,price,account,side) VALUES (120,100.00,10.00,'IBM','BUY');
