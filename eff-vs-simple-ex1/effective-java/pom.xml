@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jatinst</groupId>
-	<artifactId>simple-java</artifactId>
+	<artifactId>effective-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>simple-java-example</name>
+	<name>effective-java-example</name>
 
 	<dependencies>
 
@@ -20,7 +20,12 @@
 			<version>4.11</version>
 			<scope>test</scope> <!-- we will be using the Junit libs only for our test classes -->
 		</dependency>
-		
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
 	</dependencies>
 
 	<build>

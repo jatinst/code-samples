@@ -3,6 +3,7 @@ package com.jatinst.java.example1.simple;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -13,6 +14,7 @@ import org.junit.Test;
  * Also, note that to test the threshold condition, the only option is to add more rows
  * to the Trade table in the database. This is NOT always possible in real world scenarios
  */
+@Ignore("Needs actual database to test") //comment this line out to run the test
 public class DataCounterPlusTest {
 
 

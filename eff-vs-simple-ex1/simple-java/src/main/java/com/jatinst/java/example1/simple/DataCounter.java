@@ -12,6 +12,12 @@ import java.sql.Statement;
  * http://docs.oracle.com/javase/tutorial/jdbc/basics/connecting.html
  * 
  * This class purposefully does not use log4j or DataSources, those will be used in the effective-java project
+ * 
+ * The quick and dirty solution:
+ * * A Single class called DataCounter.java with a function called printDataCount
+ * * Uses a simple JDBC Connection
+ * * Uses System.out.println to print to console
+ * * Simple to understand and fast to implement
  */
 public class DataCounter {
 
